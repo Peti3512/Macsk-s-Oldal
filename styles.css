@@ -1,0 +1,545 @@
+/*Navbar*/
+.fenpic{
+    width: 100%; 
+    text-align: center; 
+    background-color:  rgb(255, 192, 251); 
+    border-radius:  10px 10px 0px 0px;
+    height: 250px;
+}
+
+
+.navtab{
+    width: 25%;
+    color: black;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(255, 216, 245);
+}
+
+a:active{
+    color: rgb(255, 156, 248)
+}
+
+#navbat{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin: 0;
+    border-radius: 0px 0px 10px 10px;
+
+}
+
+#it a{
+    color: rgb(255, 192, 251);
+}
+
+#backround{
+    background-image: url(Pictures/background.jpg);
+    background-size: 60%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-color: rgb(70, 70, 70);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25.6px;
+    color: rgb(255, 192, 251);
+}
+
+h1{
+    color: rgb(255, 192, 251);
+    text-align: center;
+}
+
+h3{
+    color: rgb(255, 192, 251);
+    text-align: center;
+    margin-bottom: 3px;
+}
+
+.kepkeret{
+    border-radius: 15px;
+    border: rgb(255, 192, 251)  4px solid;
+}
+
+.index1{
+    width: 400px; top: 100px
+}
+
+.index2{
+    width: 600px; top: 100px
+}
+
+
+
+.justify{
+    text-align: justify
+}
+
+.button{
+    background-color: rgb(255, 192, 251); 
+    padding: 5px; font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    border-radius: 10px; 
+    margin-right: 40px;
+    border: solid black 5px;
+}
+
+.lablec{
+    width: 100%;
+    height: 120px;
+    background-color: rgb(255, 192, 251);
+    text-align: center;
+    color: white;
+}
+
+.nyunyo{
+    border: 3px rgb(255, 192, 251) solid;
+    text-align: center;
+}
+
+caption{
+    margin-bottom: 6px;
+    font-size: 1.2em;
+}
+
+.uno a:visited{
+    color: crimson;
+}
+
+/*Position left/right*/
+.row{
+    position: relative;
+    width: 100%;
+}
+
+.col_left1{
+    position: absolute;
+    left: 10%;
+}
+
+.col_left2{
+    position: absolute;
+    left: 20%;
+}
+
+.col_left22{
+    position: absolute;
+    left: 21.5%;
+}
+
+.col_left3{
+    position: absolute;
+    left: 30%;
+}
+
+.col_left33{
+    position: absolute;
+    left: 33%;
+}
+
+.col_left4{
+    position: absolute;
+    left: 40%;
+}
+
+.col_left45{
+    position: absolute;
+    left: 48%;
+}
+
+.col_left5{
+    position: absolute;
+    left: 50%;
+}
+
+.col_left52{
+    position: absolute;
+    left: 52%;
+}
+
+.col_left55{
+    position: absolute;
+    left: 55%;
+}
+
+.col_left552{
+    position: absolute;
+    left: 57.65%;
+}
+
+.col_left6{
+    position: absolute;
+    left: 60%;
+}
+
+.col_left7{
+    position: absolute;
+    left: 70%;
+}
+
+.col_left8{
+    position: absolute;
+    left: 80%;
+}
+
+.col_left9{
+    position: absolute;
+    left: 90%;
+}
+
+.col_left10{
+    position: absolute;
+    left: 100%;
+}
+
+.col_right1{
+    position: absolute;
+    right: 10%;
+}
+
+.col_right2{
+    position: absolute;
+    right: 20%;
+}
+
+.col_right22{
+    position: absolute;
+    right: 22%;
+}
+
+.col_right3{
+    position: absolute;
+    right: 30%;
+}
+
+.col_right4{
+    position: absolute;
+    right: 40%;
+}
+
+.col_right5{
+    position: absolute;
+    right: 50%;
+}
+
+.col_right55{
+    position: absolute;
+    right: 55%;
+}
+
+.col_right6{
+    position: absolute;
+    right: 60%;
+}
+
+.col_right7{
+    position: absolute;
+    right: 70%;
+}
+
+.col_right8{
+    position: absolute;
+    right: 80%;
+}
+
+.col_right9{
+    position: absolute;
+    right: 90%;
+}
+
+.col_right10{
+    position: absolute;
+    right: 100%;
+}
+
+/*Position top*/
+
+.col_top55{
+    top: 550px;
+}
+
+.t34{
+    top:50px
+}
+
+.col_top50{
+    top: 500px;
+}
+
+.col_top65{
+    top: 650px;
+}
+
+.col_top35{
+    top: 350px;
+}
+
+.col_top45{
+    top: 450px;
+}
+
+.col_top80{
+    top: 820px;
+}
+
+.col_top100{
+    top: 1000px;
+}
+
+.col_top70{
+    top: 760px;
+}
+/*Width*/
+
+.w35{
+    width: 305px;
+}
+.w34{
+    width: 350px;
+}
+
+.w40{
+    width: 450px;
+}
+
+.w50{
+    width: 500px;
+}
+
+.i1{
+    width:10%
+}
+
+.i2{
+    width: 20%;
+}
+
+.i25{
+    width: 25%;
+}
+
+.i3{
+    width: 30%;
+}
+
+.i3_3{
+    width: 33%;
+}
+
+.i4{
+    width: 40%;
+}
+
+.i5{
+    width: 50%;
+}
+
+.i52{
+    width: 52%;
+}
+
+.i6{
+    width: 60%;
+}
+
+.i7{
+    width: 70%;
+}
+
+.i8{
+    width: 80%;
+}
+
+.i9{
+    width: 90%;
+}
+
+.i10{
+    width: 100%;
+}
+
+.i20{
+    width: 200%;
+}
+
+/*Height*/
+
+.he10{
+    height: 100px;
+}
+
+.he15{
+    height: 150px;
+}
+
+
+.he20{
+    height: 250px;
+}
+
+.he25{
+    height: 250px;
+}
+
+.he32{
+    height: 320px;
+    width: auto;
+}
+
+/*Margin*/
+.foot1{
+    margin-top: 54%;
+}
+.foot2{
+    margin-top: 77%;
+}
+.foot3{
+    margin-top: 65%;
+}
+.foot4{
+    margin-top: 70%;
+}
+
+.foot5{
+    margin-top: 0%;
+}
+
+
+.caption p{
+    margin-top: 2px;
+    font-size: 0.7em;
+    color: white;
+}
+
+details p{
+    text-align: justify;
+    color: white;
+}
+
+.thumbnail{
+    height: 75px;
+    width: auto;
+}
+
+
+.inner {
+    display: table;
+    margin: 0 auto;
+  }
+  
+.outer {
+    width:100%
+}
+
+video{
+    border-radius: 10px;
+}
+
+#backround-mobile{
+    background-image: url(Pictures/background.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-color: rgb(70, 70, 70);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: rgb(255, 192, 251);
+}
+
+.fenpic-mobile{
+    width: 100%; 
+    text-align: center; 
+    background-color:  rgb(255, 192, 251); 
+    border-radius:  10px 10px 0px 0px;
+    height: 100px;
+}
+
+.navtab-mobile p{
+    text-align: center;
+}
+
+.navtab-mobile{
+    width: 100%;
+    color: black;
+}
+
+.lablec-mobile{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(255, 192, 251);
+    text-align: center;
+    color: white;
+}
+
+#backround-tablet{
+    background-image: url(Pictures/background.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-color: rgb(70, 70, 70);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;
+    color: rgb(255, 192, 251);
+}
+
+.fenpic-tablet{
+    width: 100%; 
+    text-align: center; 
+    background-color:  rgb(255, 192, 251); 
+    border-radius:  10px 10px 0px 0px;
+    height: 150px;
+}
+
+.navtab-tablet p{
+    text-align: center;
+}
+
+.navtab-tablet{
+    width: 25%;
+    color: black;
+}
+
+.lablec-tablet{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(255, 192, 251);
+    text-align: center;
+    color: white;
+}
+
+.valaszt div table{
+    width: 100%;
+    text-align: center;
+    color: black;
+}
+
+.valaszt div table tr th p{
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+}
+
+.valaszt div table tr td{
+    width: 33%;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+
+
+.valaszt div table tr td a{
+    color: black;
+}
+
+.marg25{
+    margin-top: 20%;
+}
